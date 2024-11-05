@@ -24,10 +24,10 @@ export default function Hero() {
 
       <div className="flex gap-4">
         <button className="rounded bg-gray-800 text-base text-white py-3 px-8 hover:bg-gray-700 transition">
-          Try it for free
+          <a href="https://tailwindcss.com/">Try it for free</a>
         </button>
         <button className="rounded bg-blue-500 text-base text-white py-3 px-8 hover:bg-blue-400 transition">
-          Learn more
+          <a href="https://tailwindcss.com/docs/installation">Learn more</a>
         </button>
       </div>
 

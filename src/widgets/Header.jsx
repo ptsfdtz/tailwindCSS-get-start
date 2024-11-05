@@ -4,7 +4,7 @@ import Logo from "../assets/react.svg";
 function Header() {
   return (
     <header className="flex justify-between items-center h-20">
-      <img src={Logo} alt="" className="w-8 h-8" />
+      <img src={Logo} alt="" className="w-16 h-16" />
       <nav className="flex items-center">
         <a
           href="#"
