@@ -6,24 +6,17 @@ function Header() {
     <header className="flex justify-between items-center h-20">
       <img src={Logo} alt="" className="w-8 h-8" />
       <nav className="flex items-center">
-        <a href="#">登录</a>
         <a
           href="#"
-          className="ml-8 bg-gray-900 px-4 py-2 rounded text-blue-50 flex items-center"
+          className="ml-8 bg-white px-4 py-2 rounded text-gray-900 flex items-center justify-center w-36 text-center hover:bg-zinc-600 hover:text-white transition duration-250 delay-100"
         >
-          注册
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4 ml-1 fill-neutral-300"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-              clipRule="evenodd"
-            />
-          </svg>
+          log in
+        </a>
+        <a
+          href="#"
+          className="ml-8 bg-gray-900 px-4 py-2 rounded text-blue-50 flex items-center justify-center w-36 text-center hover:bg-zinc-700 transition duration-250 delay-100"
+        >
+          sign up
         </a>
       </nav>
     </header>
